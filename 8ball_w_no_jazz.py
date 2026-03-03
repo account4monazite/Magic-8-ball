@@ -32,7 +32,7 @@ window.geometry('600x600')
 label=kt.Label(master=window,text='8 ball',font=('Comic Sans MS', 24))
 label.pack(pady=10)
 
-img=kt.PhotoImage(file='c:/Users/shriy/OneDrive/Desktop/New folder/ok.gif')
+img=kt.PhotoImage(file=r'C:\Users\shriy\OneDrive\Desktop\Documents\GitHub\Magic-8-ball\ok.gif')
 img_label=kt.Label(window,image=img)
 img_label.pack(pady=10)
 

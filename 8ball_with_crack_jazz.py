@@ -74,7 +74,7 @@ label.pack(pady=10)
 
 
 
-img=kt.PhotoImage(file='c:/Users/shriy/OneDrive/Desktop/New folder/ok.gif')
+img=kt.PhotoImage(file=r'C:\Users\shriy\OneDrive\Desktop\Documents\GitHub\Magic-8-ball\ok.gif')
 img_label=kt.Label(window,image=img)
 # label.place(x=250,y=250)
 original_x,original_y=center_img()
